@@ -19,8 +19,7 @@ public class DumoGo extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/views/LogIn.fxml"));
-        
+        Parent root = FXMLLoader.load(getClass().getResource("/views/LogIn.fxml"));        
         Scene scene = new Scene(root);
         Image icon = new Image("/resources/icon.png");
         stage.getIcons().add(icon);
