@@ -55,7 +55,7 @@ public class DumoGo_Preloader extends Preloader {
     
     @Override
     public void handleProgressNotification(ProgressNotification pn) {
-        bar.setProgress(pn.getProgress());
+        //bar.setProgress(pn.getProgress());
     }    
     
 }
