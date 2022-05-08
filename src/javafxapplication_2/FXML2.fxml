@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="483.0" prefWidth="424.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication_2.FXMLControlador2">
+    <children>
+        <ImageView fitHeight="211.0" fitWidth="360.0" layoutX="39.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/Mesa%20de%20trabajo%202xxxhdpi.png" />
+         </image>
+        </ImageView>
+      <Label alignment="CENTER" layoutX="112.0" layoutY="250.0" prefHeight="25.0" prefWidth="200.0" text="Usuari" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldUsuari" layoutX="112.0" layoutY="275.0" prefWidth="200.0" />
+        <Label alignment="CENTER" layoutX="112.0" layoutY="316.0" prefHeight="25.0" prefWidth="200.0" text="Password" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <TextField fx:id="textFieldPassword" layoutX="112.0" layoutY="341.0" prefWidth="200.0" />
+      <Label fx:id="labelLogInMissatge" alignment="CENTER" layoutX="108.0" layoutY="381.0" prefHeight="17.0" prefWidth="200.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+        <Button fx:id="buttonLogIn" layoutX="174.0" layoutY="417.0" mnemonicParsing="false" onAction="#pantallaPrincipal" prefHeight="30.0" prefWidth="76.0" text="Accedir">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+    </children>
+</AnchorPane>
